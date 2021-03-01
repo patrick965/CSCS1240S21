@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T14:59:50.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="wB2E8isAE2Fqus6quV6n" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T13:48:56.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="AOJ2FKgITlzKfn8HtasN" version="14.4.3" type="github" pages="2">
   <diagram id="izxrAAW67C-7VGkX5i38" name="UML Notes">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HFbhik41EtkXGejbtrfb" name="Objects that interact">
-    <mxGraphModel dx="813" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="s_1t6k1x21JJ02WUQk41-0" />
         <mxCell id="s_1t6k1x21JJ02WUQk41-1" parent="s_1t6k1x21JJ02WUQk41-0" />
@@ -171,7 +171,7 @@
         <mxCell id="s_1t6k1x21JJ02WUQk41-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="s_1t6k1x21JJ02WUQk41-7" vertex="1">
           <mxGeometry y="52" width="340" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="s_1t6k1x21JJ02WUQk41-10" value="assignHomework(givesHomework, gradeLevel): homework" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s_1t6k1x21JJ02WUQk41-7" vertex="1">
+        <mxCell id="s_1t6k1x21JJ02WUQk41-10" value="assignHomework(): homework" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s_1t6k1x21JJ02WUQk41-7" vertex="1">
           <mxGeometry y="60" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="s_1t6k1x21JJ02WUQk41-11" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
@@ -197,6 +197,9 @@
         </mxCell>
         <mxCell id="s_1t6k1x21JJ02WUQk41-19" value="homeworkFinished: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s_1t6k1x21JJ02WUQk41-15" vertex="1">
           <mxGeometry y="80" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mYS3J9SjXnX4Xh6v5t4f-0" value="if seniorStudent.gradeLevel = 12&lt;br&gt;and&lt;br&gt;calculusTeacher.givesHomework = true&lt;br&gt;&lt;br&gt;then&lt;br&gt;assignHomework()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
+          <mxGeometry x="20" y="440" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
