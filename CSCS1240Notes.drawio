@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T23:47:39.321Z" agent="5.0 (Windows)" etag="0_de-is0sxamLDuW39VJ" version="14.4.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-19T23:53:04.105Z" agent="5.0 (Windows)" etag="ni1tNbHTBpYTJFTUTFFv" version="14.4.9" type="github" pages="2">
   <diagram id="izxrAAW67C-7VGkX5i38" name="UML Notes">
     <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HFbhik41EtkXGejbtrfb" name="Objects that interact">
-    <mxGraphModel dx="2073" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1822" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="s_1t6k1x21JJ02WUQk41-0" />
         <mxCell id="s_1t6k1x21JJ02WUQk41-1" parent="s_1t6k1x21JJ02WUQk41-0" />
@@ -201,8 +201,8 @@
         <mxCell id="mYS3J9SjXnX4Xh6v5t4f-0" value="if seniorStudent.gradeLevel = 12&lt;br&gt;and&lt;br&gt;calculusTeacher.givesHomework = true&lt;br&gt;&lt;br&gt;then&lt;br&gt;&lt;br&gt;seniorStudent.turnInHomework(doHomework(((calculusTeacher.assignHomework())))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
           <mxGeometry x="926" y="-40" width="340" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3BieHv0Uvj4uVbpqDDp2-0" value="&lt;div&gt;teacher.assignHomework&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
-          <mxGeometry x="360" y="580" width="40" height="20" as="geometry" />
+        <mxCell id="3BieHv0Uvj4uVbpqDDp2-0" value="&lt;div&gt;teacher.assignHomework()&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
+          <mxGeometry x="294.25" y="578" width="171.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="s_1t6k1x21JJ02WUQk41-1" source="3BieHv0Uvj4uVbpqDDp2-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -212,8 +212,8 @@
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-26" value="create Homework object" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FFFFFF;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
           <mxGeometry x="-4" y="1000" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3BieHv0Uvj4uVbpqDDp2-28" value="&lt;div&gt;student.doHomework&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
-          <mxGeometry x="766" y="630" width="112" height="20" as="geometry" />
+        <mxCell id="3BieHv0Uvj4uVbpqDDp2-28" value="&lt;div&gt;student.doHomework(Homework)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
+          <mxGeometry x="766" y="630" width="121" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-31" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="s_1t6k1x21JJ02WUQk41-1" target="3BieHv0Uvj4uVbpqDDp2-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -302,8 +302,8 @@
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-64" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;sketch=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
           <mxGeometry x="368" y="1005" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3BieHv0Uvj4uVbpqDDp2-67" value="student.homeworkFinished" style="rhombus;sketch=0;fillColor=#FFFFFF;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
-          <mxGeometry x="-4" y="1210" width="160" height="93" as="geometry" />
+        <mxCell id="3BieHv0Uvj4uVbpqDDp2-67" value="Homework.homeworkFinished" style="rhombus;sketch=0;fillColor=#FFFFFF;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
+          <mxGeometry x="-4" y="1210" width="185" height="93" as="geometry" />
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="s_1t6k1x21JJ02WUQk41-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -318,8 +318,8 @@
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="s_1t6k1x21JJ02WUQk41-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="234" y="1394.5" as="targetPoint" />
-            <mxPoint x="156" y="1257" as="sourcePoint" />
+            <mxPoint x="259" y="1395" as="targetPoint" />
+            <mxPoint x="181" y="1257.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-72" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3BieHv0Uvj4uVbpqDDp2-71" vertex="1" connectable="0">
@@ -328,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-73" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;sketch=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
-          <mxGeometry x="219" y="1395" width="30" height="30" as="geometry" />
+          <mxGeometry x="243" y="1397" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-75" value="teacher.gradeWork(Homework)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
           <mxGeometry x="769" y="1150" width="112" height="20" as="geometry" />
@@ -370,44 +370,43 @@
         <mxCell id="8w2AzW_U2LVOqzFq7Nyg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s_1t6k1x21JJ02WUQk41-1" source="3BieHv0Uvj4uVbpqDDp2-86" target="8w2AzW_U2LVOqzFq7Nyg-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3BieHv0Uvj4uVbpqDDp2-86" value="student.homeworkFinished = false" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FFFFFF;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
-          <mxGeometry x="890" y="923" width="200" height="40" as="geometry" />
+        <mxCell id="3BieHv0Uvj4uVbpqDDp2-86" value="Homework.homeworkFinished = false" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FFFFFF;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
+          <mxGeometry x="890" y="923" width="218" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3BieHv0Uvj4uVbpqDDp2-88" value="&lt;div&gt;&lt;i&gt;academicLevel would have to be calculated using a bunch of factors&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;like general intelligence, effort twords classes, knowledge of certain subjects, etc...&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
           <mxGeometry x="690" y="224" width="455" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s_1t6k1x21JJ02WUQk41-1" source="3BieHv0Uvj4uVbpqDDp2-89">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="657.5" y="1004" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3BieHv0Uvj4uVbpqDDp2-89" value="&lt;div&gt;fill out Homework object based on academicLevel&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="s_1t6k1x21JJ02WUQk41-1" vertex="1">
-          <mxGeometry x="517" y="931" width="282" height="18" as="geometry" />
         </mxCell>
         <mxCell id="8w2AzW_U2LVOqzFq7Nyg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s_1t6k1x21JJ02WUQk41-1" target="8w2AzW_U2LVOqzFq7Nyg-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="830" y="1364" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s_1t6k1x21JJ02WUQk41-1" source="8w2AzW_U2LVOqzFq7Nyg-0">
+        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s_1t6k1x21JJ02WUQk41-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="828" y="1336" as="targetPoint" />
+            <mxPoint x="828" y="1294" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-0" value="compare Homework object with a correct Homework object " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
-          <mxGeometry x="737.5" y="1274" width="181" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="8w2AzW_U2LVOqzFq7Nyg-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;sketch=0;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
-          <mxGeometry x="642.5" y="1003" width="30" height="30" as="geometry" />
+          <mxGeometry x="637.75" y="1003" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8w2AzW_U2LVOqzFq7Nyg-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;sketch=0;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
           <mxGeometry x="815" y="1422" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-9" value="pass grade into grade book" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
-          <mxGeometry x="744.5" y="1344" width="161" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="8w2AzW_U2LVOqzFq7Nyg-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;sketch=0;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
-          <mxGeometry x="975" y="1005" width="30" height="30" as="geometry" />
+          <mxGeometry x="984" y="1005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s_1t6k1x21JJ02WUQk41-1" source="8w2AzW_U2LVOqzFq7Nyg-17" target="8w2AzW_U2LVOqzFq7Nyg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-17" value="fill out Homework object based on academicLevel" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FFFFFF;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
+          <mxGeometry x="568" y="923" width="169.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-19" value="compare Homework object with a correct Homework object " style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FFFFFF;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
+          <mxGeometry x="733.5" y="1252" width="189.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8w2AzW_U2LVOqzFq7Nyg-20" value="pass grade into grade book" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#FFFFFF;" vertex="1" parent="s_1t6k1x21JJ02WUQk41-1">
+          <mxGeometry x="745.25" y="1336" width="162.5" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
