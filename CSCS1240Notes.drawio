@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T02:49:52.347Z" agent="5.0 (Windows)" etag="Zuij5ZT-l8tUhy2iXsN9" version="14.6.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-08T03:35:20.448Z" agent="5.0 (Windows)" etag="P8M1ApbznrDrUMGbon2I" version="14.6.10" type="github" pages="4">
   <diagram id="izxrAAW67C-7VGkX5i38" name="UML Notes">
     <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -532,7 +532,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0UEIXW0nfOPuoP48EcPC" name="Hitchhikers Guide">
-    <mxGraphModel dx="2222" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-wKdD1VKQordn2tFMaNz-0" />
         <mxCell id="-wKdD1VKQordn2tFMaNz-1" parent="-wKdD1VKQordn2tFMaNz-0" />
@@ -604,7 +604,7 @@
             <mxPoint x="155" y="1262" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wKdD1VKQordn2tFMaNz-46" value="&lt;div&gt;Create LivingEntity object aurthurDent&lt;br&gt;&lt;/div&gt;&lt;div&gt;name = &quot;Arthur Dent&quot;&lt;/div&gt;&lt;div&gt;species = human&lt;/div&gt;&lt;div&gt;pronoun = &quot;he&quot;&lt;/div&gt;&lt;div&gt;possessivePronoun = &quot;his&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;age = 37&lt;/div&gt;&lt;div&gt;arms = 2&lt;/div&gt;&lt;div&gt;legs = 2&lt;/div&gt;&lt;div&gt;heads = 1&lt;/div&gt;&lt;div&gt;announceSpeaker = true&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+        <mxCell id="-wKdD1VKQordn2tFMaNz-46" value="&lt;div&gt;Create LivingEntity object aurthurDent&lt;br&gt;&lt;/div&gt;&lt;div&gt;name = &quot;Arthur Dent&quot;&lt;/div&gt;&lt;div&gt;species = human&lt;/div&gt;&lt;div&gt;age = 37&lt;/div&gt;&lt;div&gt;pronoun = &quot;he&quot;&lt;/div&gt;&lt;div&gt;possessivePronoun = &quot;his&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;arms = 2&lt;/div&gt;&lt;div&gt;legs = 2&lt;/div&gt;&lt;div&gt;heads = 1&lt;/div&gt;&lt;div&gt;announceSpeaker = true&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
           <mxGeometry x="40" y="1052" width="230" height="151" as="geometry" />
         </mxCell>
         <mxCell id="wks1egdlLgKaKfjmOBUZ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="bd2gLGcgRqSaVZfxjLPG-0">
@@ -689,7 +689,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wks1egdlLgKaKfjmOBUZ-10" value="narrator.speak(&quot; that the council wanted to knock down his house and build a bypass instead, until &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+        <mxCell id="wks1egdlLgKaKfjmOBUZ-10" value="narrator.speak(&quot; that the council wanted to knock down &lt;b&gt;his &lt;/b&gt;house and build a bypass instead, until &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
           <mxGeometry x="33" y="1624" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3rFUJOiMu-fp5CJjSKa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="wks1egdlLgKaKfjmOBUZ-15">
@@ -736,7 +736,7 @@
             <mxPoint x="894.5" y="1513" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wks1egdlLgKaKfjmOBUZ-25" value="narrator.speak(&quot; was outside of the house and lying in front of a big yellow bulldoze that was advancing up &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+        <mxCell id="wks1egdlLgKaKfjmOBUZ-25" value="narrator.speak(&quot; was outside of the house and lying in front of a big yellow bulldozer that was advancing up &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
           <mxGeometry x="790" y="1403" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3rFUJOiMu-fp5CJjSKa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="wks1egdlLgKaKfjmOBUZ-27">
