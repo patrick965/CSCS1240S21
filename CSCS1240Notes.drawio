@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T20:28:46.456Z" agent="5.0 (Windows)" etag="JlTCArHsoFD6GzqY5e2g" version="14.6.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-09T21:54:56.207Z" agent="5.0 (Windows)" etag="bOq9bzuI8uWHU84RnIha" version="14.6.11" type="github" pages="4">
   <diagram id="izxrAAW67C-7VGkX5i38" name="UML Notes">
     <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -532,7 +532,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0UEIXW0nfOPuoP48EcPC" name="Hitchhikers Guide">
-    <mxGraphModel dx="2272" dy="842" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1852" dy="601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-wKdD1VKQordn2tFMaNz-0" />
         <mxCell id="-wKdD1VKQordn2tFMaNz-1" parent="-wKdD1VKQordn2tFMaNz-0" />
@@ -987,17 +987,354 @@
         </mxCell>
         <mxCell id="xgjImmgWPoDjMGY5I80J-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3518" y="1202" as="targetPoint" />
+            <mxPoint x="3424" y="1202" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3460" y="1477" />
+              <mxPoint x="3354" y="1477" />
+              <mxPoint x="3354" y="1202" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xgjImmgWPoDjMGY5I80J-50" value="fordPrefect.(&quot;Hello&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+        <mxCell id="xgjImmgWPoDjMGY5I80J-50" value="fordPrefect.speak(&quot;Hello, we&#39;ve got to talk.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
           <mxGeometry x="3007" y="1447" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xgjImmgWPoDjMGY5I80J-53" value="&lt;div&gt;in the book Ford says &quot;Hello Aurthur&quot; but&lt;/div&gt;&lt;div&gt; with the way everything is set up it&#39;s&lt;/div&gt;&lt;div&gt; difficult to properly have a character&lt;/div&gt;&lt;div&gt; say another characters name.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
           <mxGeometry x="2989" y="1519" width="227" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3527.5" y="1292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-55" value="aurthurDent.speak(&quot;Fine, talk.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3423" y="1177" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3527.5" y="1399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-56" value="fordPrefect.speak(&quot;And drink. Its vitally important that we talk and drink. Now. We&#39;ll go to the pub in the village.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3423" y="1291" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3529.5" y="1488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-58" value="narrator.speak(fordPrefect.name)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3425" y="1400" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3811" y="1194" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3731" y="1522" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-60" value="narrator.speak(&quot;Looked in the sky, nervous and expectant.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3423" y="1492" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3918.5" y="1291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-63" value="aurthurDent.speak(&quot;Look don&#39;t you understand?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3814" y="1167" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3921.5" y="1427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-64" value="narrator.speak(aurthurDent.name)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3817" y="1291" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4185" y="1175" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4094" y="1455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-67" value="narrator.speak(&quot; pointed at &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="3817" y="1425" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4291.5" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-69" value="narrator.speak(mrLProsser.name)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4187" y="1147" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4291.5" y="1388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-70" value="aurthurDent.speak(&quot;That man wants to knock my house down!&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4187" y="1267" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4552" y="1161" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4457" y="1422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-72" value="fordPrefect.speak(&quot;Can&#39;t that happen while you&#39;re away?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4190" y="1392" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4658.5" y="1251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-75" value="aurthurDent.speak(&quot;But I don&#39;t want it to!&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4554" y="1134" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4661.5" y="1376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-76" value="fordPrefect.speak(&quot;Listen, I&#39;ve got to tell you the most important thing you&#39;ve ever heard, and you&#39;re going to need a stiff drink.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4557" y="1253" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4921" y="1146" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4833" y="1411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-78" value="aurthurDent.speak(&quot;But what about my house?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4557" y="1381" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5025.5" y="1258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-81" value="fordPrefect.speak(&quot;I&#39;&#39;m sure we can come to some sort of arrangement.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4921" y="1124" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5018.5" y="1378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-83" value="narrator.speak(fordPrefect.name)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4914" y="1259" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-85" target="xgjImmgWPoDjMGY5I80J-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5190" y="1153" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5190" y="1406" />
+              <mxPoint x="5190" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-85" value="narrator.speak(&quot;walked over to &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="4905" y="1376" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5351.5" y="1255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-86" value="narrator.speak(mrLProsser.name)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5247" y="1130" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5351.5" y="1374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-88" value="mrLProsser.speak(&quot;Yes? Hello? Are we ready to get construction underway?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5247" y="1259" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5600" y="1146" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5524" y="1408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-90" value="fordPrefect.speak(&quot;Can we assume that nobody is moving out of the way of the bulldozer?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5247" y="1378" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5707.5" y="1262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-93" value="mrLProsser.speak(&quot;So?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5603" y="1121" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5709.5" y="1366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-95" value="fordPrefect.(&quot;So all your men are going to be stand here all day doing nothing?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5605" y="1261.5" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5955" y="1150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5882" y="1397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-96" value="mrLProsser.speak(&quot;Well--&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5607" y="1367" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6060.5" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-98" value="fordPrefect.speak(&quot;Well if you&#39;re resigned to doing that anyway, you don&#39;t actually need someone to lie here all the time do you?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5956" y="1121" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6060.5" y="1336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-101" value="mrLProsser.speak(&quot;Well, no... it&#39;s not exactly needed...&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5956" y="1233" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6276" y="1155" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="6236" y="1391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-103" value="fordPrefect.speak(&quot;So if you would like to take it as a read that someone is actually here, then us two could slip off down to the pub for half an hour. How does that sound?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="5956" y="1340" width="209" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6384.5" y="1239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-112" value="mrLProsser.speak(&quot;That sounds perfectly reasonable.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6280" y="1127" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6389.5" y="1386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-115" value="fordPrefect.speak(&quot;And if you want to pop off for a quick one yourself later on, we can always cover up for you in return.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6285" y="1238.5" width="209" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6640" y="1174" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="6564" y="1417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-117" value="mrLProsser.(&quot;Thank you very much.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6285" y="1387" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6748" y="1243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-120" value="fordPrefect.speak(&quot;So if you would like to come over here and lie down...&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6643" y="1130" width="209" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6745.5" y="1338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-123" value="mrLProsser.(&quot;You want me to come to lie down in front of the bulldozer?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6641" y="1242" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6934" y="1158" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="6892" y="1365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-124" value="fordPrefect.speak(&quot;Yes.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6666" y="1342" width="163" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7041.5" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-128" value="mrLProsser.(&quot;And in turn you will you two will go down to the pub?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6937" y="1130" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7041.5" y="1332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-130" value="fordPrefect.speak(&quot;Yes.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6960" y="1237" width="163" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7287" y="1148" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="7202" y="1362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-132" value="mrLProsser.(&quot;Promise?&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="6933" y="1332" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7370.5" y="1222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-135" value="fordPrefect.speak(&quot;Promise.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="7289" y="1127" width="163" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7374.5" y="1343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-136" value="narrator.speak(mrLProsser.name)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="7270" y="1222" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wKdD1VKQordn2tFMaNz-1" source="xgjImmgWPoDjMGY5I80J-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7606" y="1147" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="7536" y="1372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-140" value="narrator.speak(&quot; akwardly sat down in the mud. &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="7270" y="1342" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xgjImmgWPoDjMGY5I80J-145" value="fordPrefect.speak(&quot;And no sneaky knocking down the house whilst he&#39;s away.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-wKdD1VKQordn2tFMaNz-1">
+          <mxGeometry x="7607" y="1124" width="163" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
